@@ -21,7 +21,7 @@ class Solution:
 # manual testing
 if __name__ == "__main__":
     sol = Solution()
-    s = "abciiidef"
-    k = 3
-    result = sol.maxVowels(s, k)
+    nums = [1,1,1,0,0,0,1,1,1,1,0]
+    k = 2
+    result = sol.longestOnes(nums, k)
     print(result)
