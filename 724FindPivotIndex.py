@@ -1,4 +1,9 @@
 from typing import List
+'''
+REMINDER:
+Sum(x,y) = Prefix_sum[y+1]-prefix_sum[x]
+'''
+
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
         prefix_sum = [0]
